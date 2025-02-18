@@ -1,0 +1,43 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #a295bd;
+}
+
+.carta{
+	color: #1A237E;
+	font-size: 35px;
+	width: 400px;
+	height: 450px;
+	background-color: #D1C4E9;
+	border: 8px solid   #9575CD;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px rgba(136, 100, 101, 0.8);
+	text-align: center;
+	padding: 20px;
+	cursor: pointer;
+	transition: transform 0.5s ease;
+	font-family: 'Dancing Script', cursive;
+}
+
+.carta .contenido{
+	display: none;
+	font-size: 16px;
+	color: black;
+}
+
+.carta .abierta{
+	transform: rotateX(180deg);
+	background-color: #546581;
+}
+
+.carta.abierta .contenido{
+	display: block;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
